@@ -1,6 +1,6 @@
 # Medical Dataset Visualization Dashboard
 
-This project performs exploratory data analysis (EDA) on the Kaggle Diabetes Dataset. 
+This project performs exploratory data analysis (EDA) on the Diabetes Dataset. 
 It generates publication-quality visualizations to identify key risk factors for diabetes.
 
 ## Features
@@ -13,10 +13,20 @@ It generates publication-quality visualizations to identify key risk factors for
 ## Tech Stack
 Python, pandas, seaborn, matplotlib
 
+## Dataset
+The dataset is included in the repository (`diabetes_clean.csv`).
+
 ## Figures
 All figures are saved in the `figures/` folder.
 
 ## How to Run
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run `eda.py` to generate all visualizations
+
+Run the EDA:
+
+```bash
+# Option 1: Run the Python script
+python diabetes.py
+
+# Option 2: Open and run the Jupyter Notebook
+jupyter notebook eda.ipynb
+```
